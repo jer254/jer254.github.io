@@ -13,7 +13,7 @@ for (let key of keys) {
       display_output.innerHTML = "";
     } else if (value == "backspace") {
       input = input.slice(0, -1);
-      display_input.innerHTML = CleanInput(input);
+      display_input.innerHTML = input;
     } else if (value == "=") {
       let result = eval(input);
       display_output.innerHTML = result;
@@ -33,10 +33,10 @@ for (let key of keys) {
       ) {
         input += ")";
       }
-      display_input.innerHTML = CleanInput(input);
+      display_input.innerHTML = input;
     } else {
       input += value;
-      display_input.innerHTML = CleanInput(input);
+      display_input.innerHTML = input;
     }
   });
 }
