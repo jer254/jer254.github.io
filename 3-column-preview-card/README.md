@@ -24,8 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [3 column preview card](https://jer254.github.io
-/3-column-preview-card)
+- Live Site URL: [3_column_preview_card](https://jer254.github.io/3-column-preview-card)
 
 ## My process
 
