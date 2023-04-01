@@ -6,11 +6,9 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+ - [My process](#my-process)
   - [Built with](#built-with)
- - [Author](#author)
+ - [Preview](#Preview)
 
 ## Overview
 
@@ -20,11 +18,6 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-
 
 ## My process
 
@@ -33,9 +26,9 @@ Users should be able to:
 - HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
-## Author
 
-- Website - [Jeremiah Ndegwa](https://www.your-site.com)
+## Preview
+
+- view live  - [@Socialproof-section](https://jer254.github.io/Socialproof-section)
 
