@@ -10,7 +10,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
- - [Author](#author)
+ - [view live](#live version)
 
 ## Overview
 
@@ -37,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Jeremiah Ndegwa](https://www.your-site.com)
+- view live  - [@Socialproof-section](https://jer254.github.io/Socialproof-section)
 
