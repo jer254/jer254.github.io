@@ -8,7 +8,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [The challenge](#the-challenge)
  - [My process](#my-process)
   - [Built with](#built-with)
- - [view live](#Preview)
+ - [Preview](#Preview)
 
 ## Overview
 
