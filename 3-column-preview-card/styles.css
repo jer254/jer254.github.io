@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+  --Verylightgray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+}
+
+body {
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+body,
+button {
+  background: var(--Verylightgray);
+}
+
+.container {
+  display: flex;
+}
+
+h1 {
+  color: var(--Verylightgray);
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 4rem;
+}
+
+p {
+  color: var(--Transparentwhite);
+  font-family: "Lexend Deca", sans-serif;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  text-align: left;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  padding: 10px 20px;
+}
+
+article:first-child {
+  background-color: var(--Brightorange);
+  border-radius: 10px 0 0 10px;
+}
+article:nth-child(2) {
+  background-color: var(--Darkcyan);
+}
+
+article:last-child {
+  background-color: var(--Verydarkcyan);
+  border-radius: 0  10px 10px 0;
+}
+
+img {
+  display: inline-block;
+  padding-top: 40px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background-color: var(--Verylightgray);
+  margin-top: 30px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: transparent;
+
+  border: 1px solid white;
+}
+article:first-child button {
+  color: var(--Brightorange);
+}
+article:first-child button:hover {
+  color: var(--Transparentwhite);
+}
+
+article:nth-child(2) button {
+  color: var(--Darkcyan);
+}
+article:nth-child(2) button:hover {
+  color: var(--Transparentwhite);
+}
+
+article:last-child button {
+  color: var(--Verydarkcyan);
+}
+article:last-child button:hover {
+  color: var(--Transparentwhite);
+}
+
+
+
