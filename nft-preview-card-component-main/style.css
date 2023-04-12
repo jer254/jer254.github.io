@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  /* (main BG) */
+  --Verydarkblue: hsl(217, 54%, 11%);
+  /* (card BG) */
+  --darkblue: hsl(216, 50%, 16%);
+  /* (line) */
+  --paleblue: hsl(215, 32%, 27%);
+  --White: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: var(--Verydarkblue);
+}
+h3 {
+  color: var(--White);
+  font-size: 1.5rem;
+  transition: 0.4s;
+}
+h3:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+hr {
+  background: var(--paleblue);
+}
+
+.description {
+  color: var(--Softblue);
+  padding-block: 10px;
+}
+img {
+  display: inline-block;
+  cursor: pointer;
+}
+.container:hover img {
+  opacity: 0.2;
+}
+
+.viewicon {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .viewicon {
+  opacity: 1;
+}
+
+.equillibrium-img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  max-width: 320px;
+  background-color: var(--darkblue);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.4);
+}
+
+.nft-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--paleblue);
+}
+
+.cyan {
+  color: var(--Cyan);
+}
+.softBlue {
+  color: var(--Softblue);
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.owner img {
+  height: 40px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+.owner {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--Softblue);
+}
+
+span {
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+span:hover {
+  color: var(--Cyan);
+}

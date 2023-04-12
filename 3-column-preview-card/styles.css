@@ -24,7 +24,9 @@ body {
   justify-content: center;
   align-items: center;
   gap:1rem;
-}
+} 
+
+
 body,
 button {
   background: var(--Verylightgray);
@@ -32,6 +34,8 @@ button {
 
 .container {
   display: flex;
+  
+ 
 }
 
 h1 {
@@ -52,8 +56,8 @@ p {
 }
 
 .card {
-  height: 400px;
-  width: 300px;
+  height: 450px;
+  max-width: 278px;
   padding: 10px 20px;
 }
 
@@ -87,6 +91,7 @@ button:hover {
 
   border: 1px solid white;
 }
+
 article:first-child button {
   color: var(--Brightorange);
 }
@@ -107,6 +112,5 @@ article:last-child button {
 article:last-child button:hover {
   color: var(--Transparentwhite);
 }
-
 
 

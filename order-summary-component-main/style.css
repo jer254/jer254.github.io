@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background: url(./images/pattern-background-desktop.svg) no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Paleblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3,
+.price p:first-child {
+  color: var(--Darkblue);
+}
+h3 {
+  font-weight: 900;
+}
+.card {
+  max-width: 350px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.imgcontainer img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+.textcontent {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.textcontent p {
+  color: var(--Desaturatedblue);
+  margin-top: 10px;
+}
+
+.pricecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  background: var(--Verypaleblue);
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: 90%;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+  background: var(--Brightblue);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 1.5rem rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+button:hover{
+background: var(--Desaturatedblue);
+}
+.cancel-link {
+  text-decoration: none;
+  color: var(--Desaturatedblue);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  body {
+    background: url(./images/pattern-background-mobile.svg);
+    background-color: var(--Paleblue);
+  }
+}
